@@ -2,19 +2,21 @@
 import '../styles/global.css'
 
 import Layout from '../layouts/Layout.astro'
+
+import profile from '/profile.webp'
 ---
 
-<Layout title="Patrick Vilchez">
+<Layout title="Patrick Vilchez | Links">
 	<div class="container">
 		<div class="header">
 			<div class="presentation">
 				<div>
 					<h1>Patrick Vilchez</h1>
 					<h3>Web Developer Backend</h3>
-					<span>#Python #Django #NodeJS #Docker</span>
+					<span>Python - Django - NodeJS - Docker</span>
 				</div>
 
-				<i class="fa-solid fa-link fa-lg"></i>
+				<img id="profile" src={profile} width="156px" height="156px" alt="My picture profile" />
 			</div>
 		</div>
 

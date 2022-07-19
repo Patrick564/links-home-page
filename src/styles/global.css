@@ -1,16 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #0f172a;
-  font-family: 'Roboto', sans-serif;
-}
-
 .container {
   max-width: 500px;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 25px 0;
 }
 
@@ -48,6 +38,16 @@ body {
 
 .presentation > div > * {
   margin: 7px 0;
+}
+
+.presentation > div > span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+#profile {
+  border-radius: 10%;
+  object-fit: cover;
 }
 
 .links {
